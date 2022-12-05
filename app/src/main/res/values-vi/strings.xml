@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Đồ Án Giữa Kì</string>
+    <string name="action_search">Tìm Kiếm</string>
+
+    <!--LoginPage Activity-->
+    <string name="Login_Btn">Đăng Nhập</string>
+    <string name="Login">Đăng Nhập</string>
+    <string name="Register">Đăng Ký</string>
+    <string name="forget_pass"><u><b>Quên Mật Khẩu?</b></u></string>
+    <string name="empty_username_pass">Không để trống tài khoản và mật khẩu và Email</string>
+    <string name="register_text"><u>Bạn chưa có tài khoản? Đăng Ký</u></string>
+    <string name="login_success">Đăng Nhập Thành Công</string>
+    <string name="login_failed">Đăng Nhập Thất Bại</string>
+
+    <!--Register Activity-->
+
+    <string name="InputUserName">Nhập Tài Khoản</string>
+    <string name="InputPassword">Nhập Mật Khẩu</string>
+    <string name="InputDOB">Nhập Ngày Sinh</string>
+    <string name="InputEmail">Nhập Email</string>
+    <string name="RepeatEmail">Nhập lại Email</string>
+    <string name="exists_username_id">Đã tồn tại tài khoản này!</string>
+    <string name="register_success">Đăng Ký Thành Công</string>
+
+    <!--Creating account log-->
+    <string name="creating_account">Đang tạo tài khoản</string>
+    <string name="please_wait">Vui lòng đợi.....</string>
+
+    <!--Dark Mode Setting Activity-->
+    <string name="on">Bật</string>
+    <string name="off">Tắt</string>
+    <string name="Use_system_settings">Use system settings</string>
+    <string name="based_on_setting">We\'ll adjust your appearance based on your device\'s system.</string>
+
+
+    <string name="Profil_Information">Thông Tin Chi Tiết</string>
+
+    <string name="Cancel">Hủy</string>
+    <!--Language Activity-->
+    <string name="vietnamese_lang">Tiếng Việt</string>
+    <string name="english_lang">Tiếng Anh</string>
+
+    <!--Personal Account Information Activity-->
+    <string name="Full_Name">Họ Tên</string>
+
+    <string name="Class">Lớp</string>
+    <string name="ID">Mã</string>
+    <string name="name">Tên</string>
+    <string name="PhoneNum">Số DT</string>
+    <string name="DOB">Ngày Sinh</string>
+    <string name="add">Thêm</string>
+    <string name="gender">Giới Tính</string>
+    <string name="go_back">Quay Lại</string>
+    <string name="edit">Sửa</string>
+    <string name="remove">Xóa</string>
+    <string name="remove_success">Xóa Thành Công</string>
+    <string name="exit">Thoát</string>
+    <string name="create">Tạo</string>
+    <string name="view">Xem</string>
+    <string name="commit">Lưu</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="class_id">Mã Lớp</string>
+    <string name="class_name">Tên Lớp</string>
+    <string name="add_image">Thêm Ảnh</string>
+    <string name="address">Địa Chỉ</string>
+    <string name="specialization">Ngành</string>
+    <string name="teacher">Giáo Viên</string>
+    <string name="empty_info">Không được bỏ trống ô!</string>
+    <!--google map-->
+    <string name="mapbox_access_token">pk.eyJ1Ijoic2F0dGh1a2lkMDAwIiwiYSI6ImNsYTJjdGd1aDBnMXUzdm1vYXZ4aXdseHoifQ.5TACupCkhNiubzB0VtLm0w</string>
+
+
+    <string name="confirm_delete">Xác Nhận Xóa</string>
+    <string name="confirm_delete_sub">Bạn có chắc muốn xóa Sinh Viên này?</string>
+    <string name="confirm_delete_sub_class">Bạn có chắc muốn xóa Lớp này?</string>
+    <string name="PICTURE_METHOD">Chọn Ảnh</string>
+    <string name="PICTURE_METHOD_SUB">Hãy Chọn Hình Ảnh</string>
+    <string name="TAKE_PICTURE">Sử Dụng Camera</string>
+    <string name="CHOOSE_PICTURE">Chọn một ảnh</string>
+    <string name="add_new_class_title">Thêm Lớp Mới</string>
+    <string name="student_manager">QUẢN LÝ SINH VIÊN</string>
+    <string name="class_manager">QUẢN LÝ LỚP</string>
+    <string name="no_delete_class">BẠN KHÔNG THỂ XÓA LỚP VÌ TRONG LỚP CÓ SINH VIÊN</string>
+    <string name="exists_student_id">Trùng mã Sinh Viên!!</string>
+    <string name="exists_class_id">Trùng mã Lớp!!</string>
+    <string name="added_new_class_success">Thêm Lớp mới thành công</string>
+    <string name="add_new_student_success">Thêm Sinh Viên mới thành công</string>
+    <string name="edit_success">Sửa thành công</string>
+    <string name="edit_student">Sửa thông tin</string>
+    <string name="edit_class">Sửa lớp</string>
+    <string name="about_me">Về Tôi</string>
+    <string name="add_new_student_title">Thêm Sinh Viên Mới</string>
+    <string name="date">dd/mm/yyyy</string>
+    <string name="major">Ngành</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="changeLang">Đổi ngôn ngữ</string>
+    <string name="home">Trang Chính</string>
+
+
+</resources>

@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Midterm Project</string>
+    <string name="action_search">Search</string>
+
+    <!--LoginPage Activity-->
+    <string name="Login_Btn">Login</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="forget_pass"><u><b>Forgot your password?</b></u></string>
+    <string name="empty_username_pass">Please enter your username and password and gmail</string>
+    <string name="register_text"><u>Don\'t have an account? Register</u></string>
+    <string name="login_success">Logged in Successfully!</string>
+    <string name="login_failed">Login Failed!</string>
+
+    <!--Register Activity-->
+
+    <string name="InputUserName">Input Username</string>
+    <string name="InputPassword">Input Password</string>
+    <string name="InputDOB">Input Date Of Birth</string>
+    <string name="InputEmail">Input Email</string>
+    <string name="RepeatEmail">Repeat Email</string>
+    <string name="exists_username_id">There exists a username with this ID!</string>
+    <string name="register_success">Sign Up Success</string>
+
+    <!--Creating account log-->
+    <string name="creating_account">Creating account...</string>
+    <string name="please_wait">Please wait for a minute...</string>
+
+    <!--Dark Mode Setting Activity-->
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="Use_system_settings">Use system settings</string>
+    <string name="based_on_setting">We\'ll adjust your appearance based on your device\'s system.</string>
+
+
+    <string name="Profil_Information">Profile Information</string>
+
+    <string name="Cancel">Cancel</string>
+    <!--Language Activity-->
+    <string name="vietnamese_lang">Vietnamese</string>
+    <string name="english_lang">English</string>
+
+    <!--Personal Account Information Activity-->
+    <string name="Full_Name">Full Name</string>
+
+    <string name="Class">Class</string>
+    <string name="ID">ID</string>
+    <string name="name">Name</string>
+    <string name="PhoneNum">Phone Number</string>
+    <string name="DOB">Date Of Birth</string>
+    <string name="add">Add</string>
+    <string name="gender">Gender</string>
+    <string name="go_back">Go Back</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="remove_success">Delete success</string>
+    <string name="exit">Exit</string>
+    <string name="create">Create</string>
+    <string name="view">View</string>
+    <string name="commit">Commit</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="class_id">Class ID</string>
+    <string name="class_name">Class Name</string>
+    <string name="add_image">Add Image</string>
+    <string name="address">Address</string>
+    <string name="specialization">Specialization</string>
+    <string name="teacher">Teacher</string>
+    <string name="empty_info">The text cells are not left empty</string>
+    <!--google map-->
+    <string name="mapbox_access_token">pk.eyJ1Ijoic2F0dGh1a2lkMDAwIiwiYSI6ImNsYTJjdGd1aDBnMXUzdm1vYXZ4aXdseHoifQ.5TACupCkhNiubzB0VtLm0w</string>
+
+
+    <string name="confirm_delete">Confirm Delete</string>
+    <string name="confirm_delete_sub">Are you sure you want to delete this student?</string>
+    <string name="confirm_delete_sub_class">Are you sure you want to delete this Class?</string>
+    <string name="PICTURE_METHOD">Choose Picture</string>
+    <string name="PICTURE_METHOD_SUB">Please choose a picture</string>
+    <string name="TAKE_PICTURE">Using camera</string>
+    <string name="CHOOSE_PICTURE">Choose a picture</string>
+    <string name="add_new_class_title">Add New Class</string>
+    <string name="student_manager">STUDENT MANAGER</string>
+    <string name="class_manager">CLASS MANAGER</string>
+    <string name="no_delete_class">YOU CAN NOT DELETE THIS CLASS FOR THERE ARE STUDENTS IN THIS CLASS</string>
+    <string name="exists_student_id">There exists a student with this ID!</string>
+    <string name="exists_class_id">There exists a class with the same class ID!</string>
+    <string name="added_new_class_success">Added new Class Successful</string>
+    <string name="add_new_student_success">Added new Student Successfully</string>
+    <string name="edit_success">Edit Successfully</string>
+    <string name="edit_student">Edit Information</string>
+    <string name="edit_class">Edit Class</string>
+    <string name="about_me">About me</string>
+    <string name="add_new_student_title">Add New Student</string>
+    <string name="date">dd/mm/yyyy</string>
+    <string name="major">Major</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="changeLang">Change Language</string>
+    <string name="home">Home</string>
+
+
+</resources>

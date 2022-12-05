@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_margin="8dp"
+    android:layout_marginBottom="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imgHinhSinhvien"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/face1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/ID" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/class_id" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:textStyle="bold"
+                android:text="@string/Full_Name"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/gender" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="@string/DOB" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="@string/address" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PhoneNum"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_MaSV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ID" />
+            <TextView
+                android:id="@+id/txt_MaLop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/class_id" />
+
+            <TextView
+                android:id="@+id/txt_HoTen"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="@string/Full_Name" />
+
+            <TextView
+                android:id="@+id/txt_GioiTinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender" />
+            <TextView
+                android:id="@+id/txt_NgaySinh"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:visibility="gone"
+                android:text="@string/DOB" />
+            <TextView
+                android:id="@+id/txt_DiaChi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="@string/address" />
+
+            <TextView
+                android:id="@+id/txt_SDT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/PhoneNum" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btnXem"
+            android:src="@android:drawable/ic_menu_info_details"
+            android:layout_width="40dp"
+            android:layout_height="60dp">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/btnSua"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@android:drawable/ic_menu_edit"></ImageView>
+
+        <ImageView
+            android:id="@+id/btnXoa"
+            android:src="@android:drawable/ic_menu_delete"
+            android:layout_width="40dp"
+            android:layout_height="60dp">
+        </ImageView>
+    </LinearLayout>
+</LinearLayout>
